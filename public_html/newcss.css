@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+  margin-top: 30px;
+}
+h2
+{     
+      text-align: center;
+      color: #ffffff;
+
+}
+h3
+{
+    text-align:right;
+    color:#ffffff;
+    margin-right: 50px;
+}
+.column {
+  float:left;
+  width: 50%; 
+}
+img{
+      border-style: solid;
+  border-color: coral;
+}
+div.item {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: 120px;
+    
+}
+.caption {
+    display: block;
+    color:#ffffff;
+}
+.row{
+    text-align: center;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+
+}
+p
+{
+      color: #ffffff;
+      margin-right:700px;
+      font-size: 125%;
+       
+}
+select
+{
+          width:150px;
+          font-size: 75%;
+}
+#demo{
+        margin-left:900px;
+        color:#ffffff;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+    <title>TODO supply a title</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="newcss.css">
+    <script src="myscript.js"></script>
+</head>
+<body style="background-color:black;">
+    <h2>WELCOME TO MY ROCK,PAPER,SCISSORS GAME</h2>
+    <h3>Developed by Timuçin Çiçek</h3>
+<div class="row">
+   <div class="column">
+       <div class="item">
+ <img id="player" src="rock.png" alt="Rock Hand" width="200" height="200" >
+    <span class="caption">Player</span>
+    <select id="mySelect">
+  <option value="rock">Rock</option>
+  <option value="paper">Paper</option>
+  <option value="scissors">Scissors</option>
+</select>
+     <br><br>
+     <input type="button" onclick="getIndex()" 
+value="Play">
+    </div>
+         <p id="demo"></p>
+</div>
+<div class="column">
+    <div class="item">
+           <img id="computer" src="question.png" alt="Question" width="200" height="200" >
+            <span class="caption">Computer</span>      
+    </div>
+</div>
+    </div>
+</body>
+</html>
